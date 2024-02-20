@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("Images/main-image.jpg");
+    height: 78vh;
+    position: relative;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    opacity: 0.60;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+    max-width: 65vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav img{
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: 90%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+.hero span{
+    font-size: 1.65rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    z-index: 10;
+}
+
+.btn-red{
+    padding: 20px 25px;
+    width: 208px;
+    background-color: red;
+    color: white;
+    font-size: 23px;
+    border-radius: 5px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+.top-btn{
+    gap: 12px;
+    width: 220px;
+    height: 33px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-side-sm{
+    background-color: rgba(92, 74, 74, 0.5);
+    padding: 5px 15px;
+    color: white;
+}
+
+.btn-red-sm{
+    padding: 5px 12px;
+    background-color: red;
+    color: white;
+}
+
+.main input{
+    padding: 5px 10px;
+    width: 35%;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(255, 253, 253, 0.5);
+    font-weight: 550;
+    
+}
+
+.hero-buttons{
+    height: 57px;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.seperation{
+    height: 9px;
+    background-color: rgb(34, 34, 34);
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    color: white;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.secImg{
+    position: relative;
+}
+
+.secImg img{
+    width: 446px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video{
+    height: 200px;
+    width: 420px;
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+
+.section div :nth-child(1){
+    font-size: 50px;
+    font-weight:bolder;
+    margin-bottom: 25px;
+}
+
+.section div :nth-child(2){
+    font-size: 25px;
+}
+
+.third video{
+    height: 165px;
+    width: 350px;
+    position: absolute;
+    top: 35px;
+    right: 51px;
+}
+
+.faq{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.faq h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+.mega-faq-box{
+    width: 85%;
+}
+
+.faq-box:hover{
+    background-color: rgb(49, 49, 49);
+    cursor: pointer;
+}
+
+.faq-box{
+    transition: all 0.3s ease-out;
+    height: 45px;
+    background-color: rgb(31, 31, 31);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.faq input{
+    padding: 5px 150px 5px 10px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(255, 253, 253, 0.5);
+    font-weight: 550;
+    
+}
+
+.faq-bottom{
+    margin-top: 40px;
+}
+
+.faq-bottom h3{
+    display: flex;
+    justify-content: center;
+}
+
+.faq-buttons{
+    margin-top: 20px;
+    height: 57px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.faq-buttons input{
+    width: 35%;
+}
+
+footer{
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+footer .questions{
+    color: white;
+    color: rgb(185, 185, 185);
+    padding: 30px 10px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70vw;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(185, 185, 185);
+    margin: 10px;
+}
+
+.footer-btn{
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 10px 15px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(167, 166, 166, 0.5);
+    color: white;
+}
+
+.footer-btn{
+    margin: 25px 10px;
+}
+
+@media (max-width: 1300px){
+    .main nav{
+        max-width: 75vw;
+    }
+}
+
+@media (width >= 600px) and (width < 1279px){
+    .main nav{
+        max-width: 90vw;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1919px){
+    .main nav{
+        max-width: 75vw;
+    }
+}
+
+@media (width < 600px){
+    .main input{
+        width: 100%;
+        padding: 15px 10px;
+    }
+    .hero-buttons{
+        flex-wrap: wrap;
+    }
+    .faq-buttons{
+        flex-wrap: wrap;
+    }
+    .faq-buttons input{
+        width: 100%;
+        padding: 15px 10px;
+    }
+    .btn-red{
+        padding: 12px 25px;
+        width: 200px;
+    }    
+}
+
+@media (width < 376px){
+    .main nav{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 959px){
+    .main nav img{
+        width: 100px;
+    }
+    .top-btn{
+        width: 185px;
+    }
+    .hero span{
+        font-size: 1.2rem;
+        padding-bottom: 1.4rem;
+    }
+    .section{
+        flex-wrap: wrap;
+    }
+    .second , .fourth{
+        flex-direction: column-reverse;
+    }
+    .footer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
