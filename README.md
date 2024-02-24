@@ -1,2 +1,1 @@
-This is the starting page of Netflix website.
-Tried to make it as much responsive.
+This is a responsive clone of the homepage of Netflix website.
